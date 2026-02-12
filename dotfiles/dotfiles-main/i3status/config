@@ -1,0 +1,13 @@
+general {
+  colors = true
+  color_good = "#964B00"
+  color_degraded = "#786C3B"
+  color_bad = "#452B1F"
+  interval = 1
+}
+
+order += "tztime local"
+
+tztime local {
+  format = "%I:%M %p %m/%d/%Y"
+}
