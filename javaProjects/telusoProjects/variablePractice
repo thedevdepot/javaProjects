@@ -1,5 +1,26 @@
 class VariablePractice {
     public static void main(String[] args) {
         System.out.println("Practice with Variables:");
+
+        int num1 = 9;
+        byte by = 127;
+        short sh = 58;
+        long lon = 558l;
+
+        float flo = 5.67f;
+        double dub = 5.9;
+
+        char c = 'k';
+
+        bool b = 'true';
+
+        System.out.println("num1: " + num1);
+        System.out.println("by: " + by);
+        System.out.println("sh: " + sh);
+        System.out.println("lon: " + lon);
+        System.out.println("flo: " + flo);
+        System.out.println("dub: " + dub);
+        System.out.println("c: " + c);
+        System.out.println("b: " + b);
     }
 }
